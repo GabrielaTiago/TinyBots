@@ -1,10 +1,10 @@
 # Move de Pasta
 
-Este bot foi desenvolvido para mover arquivos entre pastas automaticamente.
+Bot feito para mover arquivos entre pastas automaticamente.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

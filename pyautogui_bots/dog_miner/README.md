@@ -1,13 +1,13 @@
 # Dog Miner
 
-Este bot foi criado para zerar o jogo [Dog Miner](https://www.crazygames.com/game/doge-miner-2).
+Bot criado para zerar o jogo [Dog Miner](https://www.crazygames.com/game/doge-miner-2).
 Consiste no processo de automatizar o inicio do game, como também a mineração da pedra até quebrá-la múltiplas vezes (o jogo em si).
 
 ## Rodando
 
 1. Entre no [site](https://www.crazygames.com/game/doge-miner-2) do jogo.
 
-2. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+2. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 3. Insira o comando:
 

@@ -1,6 +1,6 @@
-# Criar Arquivos
+# Tirar Prints
 
-Este bot foi desenvolvido para tirar prints automaticamente, da tela inteira ou de uma região específica.
+Bot feito para tirar prints automaticamente, da tela inteira ou de uma região específica.
 
 ## Rodando
 

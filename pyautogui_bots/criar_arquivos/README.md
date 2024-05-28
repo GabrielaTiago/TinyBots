@@ -1,10 +1,10 @@
 # Criar Arquivos
 
-Este bot foi feito para criação de novos arquivos de texto automaticamente.
+Bot feito para criação de novos arquivos de texto automaticamente.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

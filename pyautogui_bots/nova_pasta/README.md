@@ -1,10 +1,10 @@
 # Nova Pasta
 
-Este bot foi criado para criar uma nova pasta na área de trabalho.
+Bot feito para criar uma nova pasta na área de trabalho.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

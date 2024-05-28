@@ -1,10 +1,10 @@
 # Escreve um Texto
 
-Este bot foi desenvolvido para escrever um determinado texto automaticamente.
+Bot feito para escrever um determinado texto automaticamente.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

@@ -1,10 +1,10 @@
 # Abrir Site
 
-Este bot foi criado para abrir um site utilizando Python.
+Bot criado para abrir um site utilizando Python.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

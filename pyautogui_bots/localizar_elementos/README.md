@@ -1,10 +1,10 @@
 # Localizar Elementos
 
-Este bot foi desenvolvido para localizar elementos na tela, baseando-se na imagem provida.
+Bot feito para localizar elementos na tela, baseando-se na imagem provida.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

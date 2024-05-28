@@ -1,10 +1,10 @@
 # Arrasta e Solta
 
-Este bot foi desenvolvido para arrastar os arquivos de uma pasta para outra.
+Bot feito para arrastar os arquivos de uma pasta para outra.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 

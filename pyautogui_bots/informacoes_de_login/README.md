@@ -1,6 +1,6 @@
 # Informações de Login
 
-Este bot foi desenvolvido para coletar as informações de login do usuário. Sendo email e senha informações obrigatórias para criar o arquivo `login.txt`
+Bot feito coletar as informações de login do usuário. Sendo email e senha informações obrigatórias para criar o arquivo `login.txt`
 
 ## Rodando
 

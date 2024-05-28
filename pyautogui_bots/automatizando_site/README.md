@@ -1,10 +1,10 @@
 # Automatizando Sites
 
-Este bot foi desenvolvido para automatizar alguns processos em um deterimnado site. Carregando a página, identificando os campos de login, digitando as informações passadas e selecionando os botões determinados.
+Bot desenvolvido para automatizar alguns processos de um deterimnado site. Carregando a página, identificando os campos de login, digitando as informações passadas e selecionando os botões determinados.
 
 ## Rodando
 
-1. Abra o terminal e navegue até ao diretório do projeto `TinyBots`
+1. Abra o terminal e navegue até o diretório do projeto `TinyBots`
 
 2. Insira o comando:
 
