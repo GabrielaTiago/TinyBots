@@ -1,18 +1,8 @@
-<style>
-    h1 {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        border-bottom: none;
-        margin: 0;
-    }
-</style>
-
 <!-- Ícone do projeto -->
 <p align="center"><img src="assets/robot-emoji.png" alt="emoji de um robô" height="80px"/></p>
 
 <!-- Nome do Projeto -->
-# <h1 align="center" >TinyBots</h1>
+# <p align="center">TinyBots</p>
 
 $~$
 
