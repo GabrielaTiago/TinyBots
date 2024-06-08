@@ -14,6 +14,8 @@ Este projeto é uma coleção de pequenos bots desenvolvidos para realizar taref
 
 Aqui estão os bots atualmente disponíveis neste projeto:
 
+Baseados em PyAutoGUI:
+
 1. [Abrir Site](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/abrir_site) — Recebe o link de um site e reliza a naveção
 2. [Dog Miner](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/dog_miner) — Inicializa o jogo DogMiner, quebrando as pedras até passar de fase
 3. [Nova Pasta](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/nova_pasta) — Cria uma nova pasta na área de trabalho
@@ -26,6 +28,18 @@ Aqui estão os bots atualmente disponíveis neste projeto:
 10. [Localizar Elementos](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/localizar_elementos) — Localiza elementos na tela baseando-se na imagem provida
 11. [Desabilitar Captcha](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/desabilitar_captcha) — Desabilita o captcha de um determinado site
 12. [Automatizar Site](https://github.com/GabrielaTiago/TinyBots/tree/main/pyautogui_bots/automatizando_site) — Automatiza processos de um deterimnado site
+
+Baseados em Selenium:
+
+13. [Abrir Site](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/abrir_site) — Recebe o link de um site e reliza a navegação
+2. [Localizar Elementos](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/localizar_elementos) — Localiza elementos na tela baseando-se no HTML da página
+3. [Verifica Estados](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/verifica_estados) — Verifica o estado de elementos na tela
+4. [Rolar Pagina](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/rolar_pagina) — Rola a página aaté o final depois até o topo
+5. [Login](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/login) — Realiza o login em um site, com usuário e senha do arquivo .txt
+6. [Preencher Campos](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/preencher_campos) — Preenche campos do formulário
+7. [Clica Y Clica](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/clica_y_clica) — Clica em diversos tipos de elementos na tela (checkbox, radio, dropdown, etc)
+8. [Fazer Upload](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/fazer_upload) — Realiza o upload de arquivos
+9. [Salvar Imagens](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/salvar_imagens) — Salva as imagens de um site
 
 $~$
 
