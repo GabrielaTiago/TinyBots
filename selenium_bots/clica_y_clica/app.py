@@ -1,5 +1,7 @@
 from time import sleep
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 
 from configs.web_driver import config_web_driver
@@ -88,6 +90,23 @@ def selecionar_dropdown_classico():
     sleep(2)
     print('')
 
+def clicar_no_botao_com_direito():
+    print('Clicando no botão com o botão direito do mouse...')
+    botao = driver.find_element(By.ID, 'botao-direito')
+    if botao is not None:
+        chain = ActionChains(driver)
+        chain.context_click(botao).pause(1).send_keys(Keys.ARROW_DOWN).pause(1).send_keys(Keys.ARROW_DOWN).pause(1).send_keys(Keys.ENTER).perform()
+        print('Botão foi clicado com o botão direito do mouse, e a opção do dropdown foi selecionada.')
+        sleep(2)
+        confirmar_alerta()
+
+def confirmar_alerta():
+    print('Confirmando alerta...')
+    alerta = driver.switch_to.alert
+    alerta.accept()
+    print('Alerta foi confirmado.')
+    sleep(2)
+
 ## Códigos para site de desafios
 
 def busca_divs_com_checkboxs(tipo:str):
@@ -139,16 +158,19 @@ def selecionar_dropdown_paises():
 def main():
     acessar_site(SITE1)
     rolar_pagina(inicio=0, fim=240)
-    selecionar_radios()
-    selecionar_checkboxs()
-    selecionar_dropdown_classico()
+    # selecionar_radios()
+    # selecionar_checkboxs()
+    # selecionar_dropdown_classico()
 
-    acessar_site(SITE2)
-    rolar_pagina(inicio=0, fim=1700)
-    selecionar_checkboxs_de_carros()
-    selecionar_todos_os_checkboxs_de_motos()
-    rolar_pagina(inicio=0, fim=4000)
-    selecionar_dropdown_paises()
+    rolar_pagina(inicio=0, fim=800)
+    clicar_no_botao_com_direito()
+
+    # acessar_site(SITE2)
+    # rolar_pagina(inicio=0, fim=1700)
+    # selecionar_checkboxs_de_carros()
+    # selecionar_todos_os_checkboxs_de_motos()
+    # rolar_pagina(inicio=0, fim=4000)
+    # selecionar_dropdown_paises()
 
     input('\nPressione ENTER para fechar o navegador...\n')
     driver.quit()
