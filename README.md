@@ -4,8 +4,6 @@
 <!-- Nome do Projeto -->
 # <p align="center">TinyBots</p>
 
-$~$
-
 ## :clipboard: Descrição
 
 Este projeto é uma coleção de pequenos bots desenvolvidos para realizar tarefas específicas. Cada bot é projetado para executar uma determinada função e pode ser facilmente integrado em outros projetos. Sinta-se à vontade para explorar e modificar os bots de acordo com suas necessidades!
@@ -40,8 +38,8 @@ Baseados em Selenium:
 7. [Clica Y Clica](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/clica_y_clica) — Clica em diversos tipos de elementos na tela (checkbox, radio, dropdown, etc)
 8. [Fazer Upload](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/fazer_upload) — Realiza o upload de arquivos
 9. [Salvar Imagens](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/salvar_imagens) — Salva as imagens de um site
-
-$~$
+10. [Pra Lá e Pra Cá](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/pra_la_e_pra_ca) — Navega entre as abas e janelas do navegador
+11. [Escolhe um Voo](https://github.com/GabrielaTiago/TinyBots/tree/main/selenium_bots/escolhe_um_voo) — Escolhe um voo no Google Flights
 
 ## :rocket: Preparando o ambiente
 
@@ -100,13 +98,9 @@ Se você encontrar algum problema ao executar algum bot, tente as seguintes etap
 3. Verifique se você tem a versão mais recente do Python instalada.
 4. Se não conseguir executar o bot, tente executá-lo com privilégios de administrador.
 
-$~$
-
 ## :muscle: Contribuição
 
 As contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, abra uma *issue* ou envie um *pull request*.
-
-$~$
 
 ## :woman_technologist: Autora
 
@@ -115,8 +109,6 @@ Gabriela Tiago de Araújo
 -   email: <gabrielatiagodearaujo@outlook.com>
 -   linkedin: <https://www.linkedin.com/in/gabrielatiago/>
 -   portfolio: <https://gabrielatiago.vercel.app>
-
-$~$
 
 ## :copyright: Licença
 
