@@ -22,19 +22,10 @@ def acessar_site(site):
     driver.get(site)
     sleep(5)
 
-def rolar_pagina_1():
-    driver.execute_script("window.scrollTo(0, 240);")
-    print ('\nRolando a página para baixo...\n')
-    sleep(3)
-
-def rolar_pagina_2():
-    driver.execute_script("window.scrollTo(0, 1700);")
+def rolar_pagina(inicio: int, fim: int|str):
+    driver.execute_script(f'window.scrollTo({inicio}, {fim});')
     print ('Rolando a página para baixo...\n')
     sleep(3)
-
-def rolar_prox_elemento():
-    driver.execute_script("window.scrollTo(0, 4000);")
-    print('Rolando próximo elemento...\n')
 
 def selecionar_radios():
     print('Selecionando botões radio...')
@@ -147,16 +138,16 @@ def selecionar_dropdown_paises():
 
 def main():
     acessar_site(SITE1)
-    rolar_pagina_1()
+    rolar_pagina(inicio=0, fim=240)
     selecionar_radios()
     selecionar_checkboxs()
     selecionar_dropdown_classico()
 
     acessar_site(SITE2)
-    rolar_pagina_2()
+    rolar_pagina(inicio=0, fim=1700)
     selecionar_checkboxs_de_carros()
     selecionar_todos_os_checkboxs_de_motos()
-    rolar_prox_elemento()
+    rolar_pagina(inicio=0, fim=4000)
     selecionar_dropdown_paises()
 
     input('\nPressione ENTER para fechar o navegador...\n')
