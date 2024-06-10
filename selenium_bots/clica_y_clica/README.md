@@ -1,10 +1,13 @@
 # Clica Y Clica
 
-Bot criado para intarigir cliacando nos tipos de elemestos:
+Bot criado para interagir clicando nos tipos de elementos:
 
 -   Radio
 -   Checkbox
 -   Dropdown
+-   Alertas
+
+Como também, clicks com o botão direito.
 
 ## Rodando
 
