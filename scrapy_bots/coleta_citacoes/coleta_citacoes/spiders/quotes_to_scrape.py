@@ -1,6 +1,8 @@
 import scrapy
-from typing import Iterable
-from scrapy.http import Response, Request
+from coleta_citacoes.items import QuoteItem
+from scrapy.http import Response
+from scrapy.loader import ItemLoader
+
 
 class QuotesToScrapeSpider(scrapy.Spider):
     name = 'quotes' #  Identifies the Spider
@@ -18,15 +20,13 @@ class QuotesToScrapeSpider(scrapy.Spider):
             dict: A dictionary containing the extracted information from each element.
         """
         for element in response.xpath('//div[@class="quoteDetails"]'):
-            quote = element.xpath('.//div[@class="quoteText"]/text()').get()
-            author = element.css('span.authorOrTitle::text').get() # .//span[@class="authorOrTitle"]/text()
-            tags = element.xpath('.//div[@class="greyText smallText left"]/a/text()').getall()
+            loader = ItemLoader(item=QuoteItem(), selector=element, response=response)
 
-            yield {
-                'quote': quote,
-                'author': author,
-                'tags': tags
-            }
+            loader.add_xpath('quote', './/div[@class="quoteText"]/text()')
+            loader.add_css('author', 'span.authorOrTitle::text') # .//span[@class="authorOrTitle"]/text()
+            loader.add_xpath('tags', './/div[@class="greyText smallText left"]/a/text()')
+
+            yield loader.load_item()
 
         try:
             next_page = response.css('a.next_page::attr(href)').get()
