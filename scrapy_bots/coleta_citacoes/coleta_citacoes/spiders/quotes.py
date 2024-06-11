@@ -4,7 +4,7 @@ from scrapy.http import Response
 from scrapy.loader import ItemLoader
 
 
-class QuotesToScrapeSpider(scrapy.Spider):
+class QuotesScraperSpider(scrapy.Spider):
     name = 'quotes' #  Identifies the Spider
     allowed_domains = ['goodreads.com']
     start_urls = ['https://www.goodreads.com/quotes']
