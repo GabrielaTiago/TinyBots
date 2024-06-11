@@ -4,12 +4,8 @@ from scrapy.http import Response, Request
 
 class QuotesToScrapeSpider(scrapy.Spider):
     name = 'quotes' #  Identifies the Spider
-
-    def start_requests(self) -> Iterable[Request]:
-        urls = ['https://www.goodreads.com/quotes']
-
-        for url in urls:
-            yield Request(url=url, callback=self.parse)
+    allowed_domains = ['goodreads.com']
+    start_urls = ['https://www.goodreads.com/quotes']
 
     def parse(self, response: Response):
         """
@@ -31,3 +27,12 @@ class QuotesToScrapeSpider(scrapy.Spider):
                 'author': author,
                 'tags': tags
             }
+
+        try:
+            next_page = response.css('a.next_page::attr(href)').get()
+            if next_page is not None:
+                link_next_page = response.urljoin(next_page)
+                yield response.follow(link_next_page, callback=self.parse)
+        except Exception as e:
+            self.logger.error(f'Error: {e}')
+            print("End of the quotes.")
